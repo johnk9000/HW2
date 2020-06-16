@@ -1,6 +1,6 @@
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-# My First Serious ReadME
+## My First Serious ReadME
 
 URL to GitHub hosted website: https://johnk9000.github.io/HW2/
 
@@ -10,7 +10,7 @@ The bootstrap component used is the Bootstrap 4 NavBar (docs: https://getbootstr
 
 The html repository is comprised of three pages: `index.html`, `portfolio.html` and `contact.html` which represents the "About Me", "Portfolio", and "contact, all located at the root of the repo. A separate css file, titled `style.css` is located in the `/CSS` directory while image files used for the art portfolio section is loaded into `/Photo` directory. Because the picture used in the About Me section is a low-res portable image rather than a lossless export of photographs, the profile picture is located in the `/Images` directory.
 
-# Revision Log
+## Revision Log
 
 * First few commits were version 1 of the website with a different aesthetic look and many non-working elements
 
