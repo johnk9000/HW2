@@ -1,6 +1,20 @@
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+# My First Serious ReadME
+
+URL to GitHub hosted website: https://johnk9000.github.io/HW2/
+
+This exercise was intended to nail down the fundamentals of CSS positioning and using some pre-made bootstrap components to make a functional website.
+
+The bootstrap component used is the Bootstrap 4 NavBar (docs: https://getbootstrap.com/docs/4.0/components/navbar/) in all pages and the bootstrap 4 forms component (docs: https://getbootstrap.com/docs/4.0/components/forms/).
+
+The html repository is comprised of three pages: `index.html`, `portfolio.html` and `contact.html` which represents the "About Me", "Portfolio", and "contact, all located at the root of the repo. A separate css file, titled `style.css` is located in the `/CSS` directory while image files used for the art portfolio section is loaded into `/Photo` directory. Because the picture used in the About Me section is a low-res portable image rather than a lossless export of photographs, the profile picture is located in the `/Images` directory.
+
+# Revision Log
+
+* First few commits were version 1 of the website with a different aesthetic look and many non-working elements
+
+* Commits made since Tuesday, June 16th 2020 are version 2s with the current design aesthetic
 
 
 ## Directions
