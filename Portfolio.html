@@ -4,103 +4,100 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>HW2-JK</title>
-
-    <!-- Bringing in our bootstrap stylesheet -->
+    <title>HW2-JK_v2.1</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <!--Importing Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <!--importing Materialize lib
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
     <!--Referencing local CSS stylesheet-->
     <link rel="stylesheet" href="CSS/style.css">
-    <!--Calling viewport meta to make more RWD-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
+    <!--importing Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poiret+One&display=swap" rel="stylesheet">
 
-    </style>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
-        <a href="/" class="navbar-brand">JK</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar4">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse justify-content-center" id="navbar4">
-            <ul class="navbar-nav">
+    <nav class="navbar sticky-top bg-light navbar-light">
+        <a href="/" class="nav-brand">John Kim</a>
+
+        <div class="navbar navbar-nav">
+            <ul class="navbar-nav ml-auto nav">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About Me</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="Portfolio.html">Portfolio <span class="sr-only">Home</span></a>
+                    <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">Home</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-
+    
+<!--Art Portfolio-->
+<div class="container">
     <div class="wrapper">
-        <div class="container">
-            <div class="row" style="border-bottom: grey 2px;">
-                <div class="col-md-12" style="text-align: left; margin-left: 50px; color: #333;">
-                    <h1>Portfolio</h1>
-                </div>
-                <br>
-            </div>
-            <div class="row">
-                <h2>Photography</h2>
-
-            </div>
-            <div class="row">
-                <div class="column">
-                    <img src="Images/lossless_Emory Astro.jpg">
-                    <img src="Images/DSC01083.jpg">
-                    <img src="Images/Chicago Night Sky.jpg">
-                </div>
-                <div class="column">
-                    <img src="Images/Perseid Fireball 1.jpg">
-                    <img src="Images/Enchanted Rock Lightning.jpg">
-                    <img src="Images/ATX Long Exposure 2.jpg">
-                </div>
-                <div class="column">
-                    <img src="Images/Lake Wanaka Milky Way Core.jpg">
-                    <img src="Images/Barton Scenes-07.jpg">
-                    <img src="Images/Cityscape from SE.jpg">
-                </div>
-            </div>
-
-            <br>
-            <br>
-
-            <div class="row" style="font-size: 36px;">
-                <h2>Videography</h2>
-            </div>
-            <div class="row">
-            <!--<div class="col-md-3">
-                    <img class="side-img" src="Images\portrait.jpg">
-                </div>-->
-                <div class="column-vid" id="vid-col">
-                    <h3>True Fabrications Episode 1</h3>
-                    <div class="media-holder">
-                        <iframe src="https://www.youtube.com/embed/ZVMsuuc1IUE" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <br>
-                        <a href="https://www.youtube.com/channel/UCIeFVcKdoHkcn_FA_rjUbWg" id="yt-link">YT Channel</p>
-                    </div>
-                </div>
-                <div class="column-vid" id="vid-col" style="margin-bottom: 40px;;">
-                    <h3>Vertigo: an Animated Short Film</h3>
-                    <div class="media-holder">
-                        <iframe src="https://www.youtube.com/embed/rhRsW2pH3xk" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <br>
-                        <a href="https://www.youtube.com/channel/UCIeFVcKdoHkcn_FA_rjUbWg" id="yt-link">YT Channel</p>
-                    </div>
-                </div>
+        <div class="row">
+                <h1 id="widebb">Portfolio</h1>
+                <h3>Photography</h3>
         </div>
+        <br>
+        <div class="row" style="justify-content: space-evenly;">
+            <div class="column">
+                <div class="zoom">
+                    <img  src="Photos/lossless_Emory Astro.jpg" alt="Emory Peak Astro Image">
+                    <div id="caption">
+                        <a>Emory Peak Astro</a>
+                    </div>
+                </div>
+                <div class="zoom">
+                    <img  src="Photos/Perseid Fireball 1.jpg" alt="Persid Fireball Image">
+                    <div id="caption">
+                        <a>Persid Fireball</a>
+                    </div>
+                </div>
+                <div class="zoom">
+                    <img src="Photos/Chicago Night Sky.jpg" alt="wuddup Chicago!">
+                    <div id="caption">
+                        <a>Chicago Cityscape</a>
+                    </div>
+                </div>
+                <div class="zoom">
+                    <img src="Photos/Lake Wanaka Milky Way Core.jpg" alt="Lake Wanaka Milky Way Image">
+                    <div id="caption">
+                        <a>Milky Way</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="zoom">
+                    <img src="Photos/DSC01083.jpg" alt="Bigger Jaws">
+                        <div id="caption">
+                            <a>Shark</a>
+                        </div>  
+                </div>
+                <div class="zoom">
+                    <img src="Photos/Barton Scenes-07.jpg" alt="Crawdad">
+                        <div id="caption">
+                            <a>Crawfish</a>
+                        </div>
+                </div>
+                <div class="zoom">
+                    <img src="Photos/ATX Long Exposure 2.jpg" alt="Austin Texas Baby!">
+                        <div id="caption">
+                            <a>ATX I-35 Long Exposure</a>
+                        </div>
+                </div>
+                <div class="zoom">
+                    <img src="Photos/Enchanted Rock Lightning.jpg" alt="Picture of a Very Large Rock">
+                        <div id="caption">
+                            <a>Enchanted Rock</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
 </body>
+</html>
