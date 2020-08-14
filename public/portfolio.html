@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="CSS/style.css">
     <!--importing Google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poiret+One&display=swap" rel="stylesheet">
+    <!-- jQuery + script.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
 
 </head>
@@ -40,64 +42,67 @@
                 <h1 id="widebb">Portfolio</h1>
                 <h3>Photography</h3>
         </div>
-        <br>
+        <div class="row">
+            <button class="activeSubButton" id="photoButton">Photography</button>
+        </div>
         <div class="row" style="justify-content: space-evenly;">
             <div class="column">
-                <div class="zoom">
+                <div class="zoom" id="col1">
                     <img  src="Photos/lossless_Emory Astro.jpg" alt="Emory Peak Astro Image">
-                    <div id="caption">
+                    <div id="caption-1">
                         <a>Emory Peak Astro</a>
                     </div>
                 </div>
                 <div class="zoom">
                     <img  src="Photos/Perseid Fireball 1.jpg" alt="Persid Fireball Image">
-                    <div id="caption">
+                    <div id="caption-2">
                         <a>Persid Fireball</a>
                     </div>
                 </div>
                 <div class="zoom">
                     <img src="Photos/Chicago Night Sky.jpg" alt="wuddup Chicago!">
-                    <div id="caption">
+                    <div id="caption-3">
                         <a>Chicago Cityscape</a>
                     </div>
                 </div>
                 <div class="zoom">
                     <img src="Photos/Lake Wanaka Milky Way Core.jpg" alt="Lake Wanaka Milky Way Image">
-                    <div id="caption">
+                    <div id="caption-4">
                         <a>Milky Way</a>
                     </div>
                 </div>
             </div>
 
-            <div class="column">
+            <div class="column" id = "col2">
                 <div class="zoom">
                     <img src="Photos/DSC01083.jpg" alt="Bigger Jaws">
-                        <div id="caption">
+                        <div id="caption-5">
                             <a>Shark</a>
                         </div>  
                 </div>
                 <div class="zoom">
                     <img src="Photos/Barton Scenes-07.jpg" alt="Crawdad">
-                        <div id="caption">
+                        <div id="caption-6">
                             <a>Crawfish</a>
                         </div>
                 </div>
                 <div class="zoom">
                     <img src="Photos/ATX Long Exposure 2.jpg" alt="Austin Texas Baby!">
-                        <div id="caption">
+                        <div id="caption-7">
                             <a>ATX I-35 Long Exposure</a>
                         </div>
                 </div>
                 <div class="zoom">
                     <img src="Photos/Enchanted Rock Lightning.jpg" alt="Picture of a Very Large Rock">
-                        <div id="caption">
+                        <div id="caption-8">
                             <a>Enchanted Rock</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>    
+    </div>   
 </div>
+<script src="script.js"></script>
 </body>
 </html>
