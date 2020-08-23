@@ -1,0 +1,49 @@
+  nav {
+    flex-flow: row;
+    justify-content: right!important;
+    float: right!important;
+    width: 100%;
+  }
+
+  .nav {
+    width: 80%;
+    flex-flow: row-reverse;
+    background-color: transparent;
+  }
+
+  .navbar {
+    padding: 20px;
+    background: white;
+    margin: auto;
+  }
+  
+  .nav-brand {
+    width: 33px;
+    height: 28px;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Poiret One', cursive;
+    color: white!important;
+    padding: auto;
+    background: linear-gradient(rgb(25, 50, 50), rgb(50, 100, 100));
+    margin-left: 5%;
+    float: left;
+  }
+  
+  .nav-item { 
+    width: 100px;
+    margin: 0 1%;
+    text-align: center;
+    padding: auto;
+  }
+  
+  .navlink {
+    color: #999;
+    font-size: 24px;
+    font-weight: 200;
+  }
+
+  .active {
+    font-weight: 500;
+  }
